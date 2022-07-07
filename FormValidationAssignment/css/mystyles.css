@@ -1,0 +1,158 @@
+html, body, h1, form, fieldset, legend, ol, li {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #ffffff;
+	color: #111111;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 20px;
+}
+form#userForm {
+	background: #191919;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px;
+	width: 400px;
+	color: #f2f2f2;
+}
+form#userForm fieldset {
+	border: 2px solid white;
+	padding: 8px;
+}
+form#userForm fieldset:last-of-type {
+	margin-bottom: 0;
+}
+form#userForm legend {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 2px;
+	text-shadow: 0 1px 1px #262626;
+	cursor: context-menu;
+}
+form#userForm fieldset fieldset legend {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	text-shadow: 0 1px 1px #262626;
+	cursor: context-menu;
+}
+form#userForm ol li {
+	background: #1D4862;
+	border-color: #e3ebc3;
+	border-color: rgba(255,255,255,.6);
+	border-style: solid;
+	border-width: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 30px;
+	list-style: none;
+	padding: 5px 10px;
+	margin-bottom: 2px;
+	color: #f2f2f2;
+	overflow: auto;
+}
+form#userForm ol ol li {
+	background: none;
+	border: none;
+	float: left;
+	overflow: auto;
+}
+form#userForm label {
+	float: left;
+	font-size: 13px;
+	width: 110px;
+}
+form#userForm fieldset fieldset label {
+	background:none no-repeat left 50%;
+	line-height: 20px;
+	padding: 5px 0 0 5px;
+	width: 95px;
+	float:left;
+}
+form#userForm fieldset fieldset label:hover {
+	cursor: context-menu;
+}
+form#userForm input:not([type=radio]),
+form#userForm textarea {
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	outline: none;
+	padding: 5px;
+	width: 200px;
+}
+form#userForm input:not([type=submit]):focus,
+form#userForm textarea:focus {
+	background: #ffffff;
+}
+form#userForm input[type=radio] {
+	float: left;
+	margin-right: 5px;
+}
+form#userForm input:not([type=radio]),
+form#userForm textarea {
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	outline: none;
+	padding: 5px;
+	width: 200px;
+}
+form#userForm input[type=color] {
+	width: 150px;
+	margin-left: 120px;
+}
+form#userForm p {
+	color: #f2f2f2;
+	text-align: center;
+}
+form#userForm input:not([type=submit]):focus,
+form#userForm textarea:focus {
+	background: #ffffff;
+}
+form#userForm input[type=radio] {
+	float: left;
+	margin-right: 5px;
+}
+form#userForm button {
+	background: #0E69A2;
+	border: none;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-khtml-border-radius: 15px;
+	border-radius: 15px;
+	color: #ffffff;
+	display: block;
+	font: 18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+}
+form#userForm button:hover {
+	background: #2678AB;
+	cursor: pointer;
+	box-shadow: 6px 12px 16px 0 #3A3838, 0 17px 50px 0 #4D4B4B;
+}
+span {
+	text-align: center;
+	color: #ff3232;
+	font-size: 15px;
+	cursor: context-menu;
+	line-height: 20px;
+	
+}

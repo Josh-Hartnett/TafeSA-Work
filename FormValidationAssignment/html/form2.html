@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset="utf-8"/>
+<link rel = "stylesheet" type = "text/css" href = "../css/mystyles.css"/>
+<link rel="stylesheet" type="text/css" href="../css/datepickr.css"/>
+<script src = "../js/form.js"></script>
+<script src="../date/datepickr.min.js"></script> 
+<title>Validation Form 2</title>
+</head>
+<body>
+<script>
+    var range;
+    var rvalue;
+    function init(){
+        range = document.getElementById("range");
+	rvalue = document.getElementById("rvalue");
+	rvalue.placeholder = "10 is most urgent";
+	range.onchange = update;
+    }
+
+    function update(){
+	rvalue.value = range.value;
+    }
+window.onload = init;
+</script>
+<!-- START OF FORM CREATION-->
+<form id = "userForm" name="contact" action="FormToEmail.php" method="post">
+Progress: <progress max="2" value="1">Step 2 of 3</progress><br />
+<!-- START 'Register New User' area -->
+<br /><fieldset>
+	<legend>Enter Tip Details</legend>
+	<ol>
+		<li>
+		<label for="datepick">Date/Time of Incident: </label>
+			<input type="text" id="datepick" onfocus="changeBgd(this)" onblur="resetBgd(this)" />
+			<span id="dateError"></span>
+		<script>
+			var i = document.createElement("input");
+			i.setAttribute("type", "datetime-local");
+			if (i.type != " datetime-local ")	{
+				new datepickr('datepick', {'dateFormat': 'd/m/y'});
+			}
+		</script>
+		</li>
+
+		<li>
+		<label>Tip Details: </label> 
+			<textarea rows="4" cols="25"> </textarea>
+		</li>
+			
+		<li>
+		<label for="attachment">Attach Supporting <br />File: </label>
+			<input type="file" id="attachment" onfocus="changeBgd(this)" onblur="resetBgd(this)" />
+			<span id="fileError"></span>
+		</li>
+			
+		<li>
+		<label for ="range">Urgency:
+			<input type="range" name="range" id="range" min="1" max="10" /></label>
+			<input id="rvalue" placeholder="more urgent" readonly />
+		</li>
+	</ol>
+</fieldset><br />
+<!-- END 'Register New User' area -->
+
+<!-- START 'Personal Details' area-->
+<fieldset>
+	<legend>Communication Preferences</legend>
+	<ol>
+		<li>
+		<label for="contact">May we contact you about this tip? </label>
+			<input type = "checkbox" id = "contact" />
+		</li>
+	</ol>
+	<fieldset>
+		<legend>Preferred Contact Method</legend>
+		<ol>
+			<li>
+			<label for="contact">Phone </label>
+				<input type = "radio" id = "phoneContact" />
+			</li>
+			<li>
+			<label for="contact">Email </label>
+				<input type = "radio" id = "emailContact" />
+			</li>
+		</ol>
+	</fieldset>
+</fieldset><br />
+Staff in the office <progress max="12" value="8"></progress><br /><br />
+<button type="submit">Continue</button> <br />
+</form>
+</body>
+</html>
