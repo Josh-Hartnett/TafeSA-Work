@@ -19,32 +19,77 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-
-        <!-- Header-->
-    
-        <header class="masthead d-flex align-items-center">
-            <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1">Joshua Hartnett</h1>
-                <h3 class="mb-5"><em>A Project Portfolio</em></h3>
+        <div class = "bg-light">
+        <div class="container-lg">
+        <nav class="navbar navbar-expand-lg navbar-light py-2">
+            <a class="navbar-brand px-5" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+              </ul>
             </div>
-        </header>
+          </nav>
+        </div>
+    </div>
+
         <!-- About-->
+        <!--Spacing-->
         <div class="container">
-            <div class = "row">
-                <div class = "col-8">
-                    <h1 class="mb-1">Joshua Hartnett</h1>
-                    <h3 class="mb-5"><em>A Project Portfolio</em></h3>
+            <div class="container overflow-hidden">
+                <div class="row gx-5">
+                  <div class="col">
+                   <div class="p-3"></div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3"></div>
+                  </div>
                 </div>
-                <div class = "col-4">
-                    <a href="https://www.vecteezy.com/free-vector/web-developer">Web Developer Vectors by Vecteezy
-                        <img src="assets/img/perhapsme.jpg" alt = "Decorative programmer with languages surrounding him">
+              </div>
+              <div class="container overflow-hidden">
+                <div class="row gx-5">
+                  <div class="col">
+                   <div class="p-3"></div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3"></div>
+                  </div>
+                </div>
+              </div>
+
+            <!--Actual content-->
+            <div class = "row justify-content-center">
+                <div class = "col-7">
+                    <div class ="text-center"><br /><br />
+                    <h3 class="mb-3"><em>Hi, I'm Joshua Hartnett</em></h3>
+                    <p>A passionate Flinders University student with previous experience through Tafe SA in building dynamic web applications with languages such as SQL, JavaScript & PHP. Some of these projects 
+                        can be found below in the portfolio, however due to GitHub limitations the PHP & SQL components of the website do not function. This means you <u>cannot</u> register an account, 
+                        login to an account, add or remove books from the cart, or 'order' books. 
+
+                        <hr/>Since starting at Flinders University in July 2021, my interest in the software programming industry has grown drastically. It began with a subject in Java programming 
+                        during semester 2 of 2021, and continued with C++ in semester 1 of 2022, where I achieved a high distinction and distinction for an overall grade respectively. </p>
+                    </div>
+                </div>
+                <div class = "col-5">
+                    <a href="https://www.vecteezy.com/free-vector/web-developer">
+                        <img class="img-fluid" src="assets/img/perhapsme.jpg" alt = "Decorative programmer with languages surrounding him">
                     </a>
                 </div>
             </div>
 
         <!-- Portfolio-->
         <!--HTML Section-->
-        <section class="content-section" id="portfolio">
+        <section class="content-section bg-light" id="portfolio">
             <div class="container px-4 px-lg-5">
                 
                 <div class="content-section-heading text-center">
@@ -53,7 +98,7 @@
                 </div>
                 <div class="card-deck">
                     <div class="row gx-0">
-                        <div class="col-4">
+                        <div class="col-4 p-3">
                             <div class="card">
                                 <a href="/TafeSA-Work/HTMLProjects/FanSite/index.html" target="_blank">
                                     <img class="card-img-top" src="assets/img/showcase4.png" alt="The click game still image">
@@ -61,14 +106,14 @@
                                 <div class="card-body">
                                     <h5 class="card-title">76ers Fan Website</h5>
                                     <p class="card-text">This website was designed for fans of the Philadelphia 76ers who could register an account or login. jQuery is used and PHP, however the PHP functionality is lost due to hosting constraints.</p>
-                                    <br />
+                                    <br /><br />
                                 </div>
                                 <div class="card-footer">
                                     <small class="text-muted"></small>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 p-3">
                             <div class="card">
                                 <a href = "/TafeSA-Work/HTMLProjects/BookStore/index.html" target="_blank">
                                     <img class="card-img-top" src="assets/img/showcase5.png" alt="The flower array still image">
@@ -83,7 +128,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 p-3">
                             <div class="card">
                                 <a href ="/TafeSA-Work/HTMLProjects/TafeRedevelopment/Teaching&Learning.html" target="_blank">
                                     <img class="card-img-top" src="assets/img/showcase6.png" alt="Card image cap">
@@ -101,10 +146,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-
+            <br />
         <!--JavaScript Section-->
-        <section class="content-section" id="portfolio">
             <div class="container px-4 px-lg-5">
                 
                 <div class="content-section-heading text-center">
@@ -113,7 +156,7 @@
                 </div>
                 <div class="card-deck">
                     <div class="row gx-0">
-                        <div class="col-4">
+                        <div class="col-4 p-3">
                             <div class="card">
                                 <a href="JavaScriptProjects/ClickGame/click_game.html" target="_blank">
                                     <img class="card-img-top" src="assets/img/showcase1.png" alt="The click game still image">
@@ -128,7 +171,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 p-3">
                             <div class="card">
                                 <a href = "JavaScriptProjects/Flowers/flower_arrays.html" target="_blank">
                                     <img class="card-img-top" src="assets/img/showcase2.png" alt="The flower array still image">
@@ -143,7 +186,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 p-3">
                             <div class="card">
                                 <a href ="JavaScriptProjects/Canvas/index.html" target="_blank">
                                     <img class="card-img-top" src="assets/img/showcase3.png" alt="Card image cap">
@@ -162,23 +205,22 @@
                 </div>
             </div>
         </section>
-
     </div>
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container px-4 px-lg-5">
                 <ul class="list-inline mb-5">
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
+                        <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/joshua-hartnett-391a03221/"><i class="icon-social-linkedin"></i></a>
                     </li>
                     <li class="list-inline-item">
                         <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
+                        <a class="social-link rounded-circle text-white" href="https://github.com/Josh-Hartnett"><i class="icon-social-github"></i></a>
                     </li>
                 </ul>
-                <p class="text-muted small mb-0">Copyright &copy; Your Website 2022</p>
+                <p class="text-muted small mb-0">Copyright &copy; Joshua Hartnett Portfolio 2022</p>
             </div>
         </footer>
         <!-- Scroll to Top Button-->
