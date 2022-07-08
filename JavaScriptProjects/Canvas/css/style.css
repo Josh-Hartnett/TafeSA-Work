@@ -1,0 +1,295 @@
+/*Set CSS styles to be used across all pages*/
+
+/*Joshua Hartnett - 001065013
+CSS used on all pages*/
+*{
+	margin:0; padding:0;
+}
+
+
+canvas {
+	background-color:#f2f2f2;
+}
+
+
+#container{
+	margin: 0 auto;
+	width:80%;
+	max-width:1500px;
+	min-width:780px;
+}
+
+section{
+	width:99.8%;
+	float:left;
+	text-align:center;
+	background-color:white;
+	padding-bottom:30px;
+}
+
+nav{
+	width:100%; 
+	float:left; 
+	color: white; 
+	font-family:'Quicksand', sans-serif;
+	background-color: #4774CE;
+}
+footer{
+	width:100%; 
+	float:left; 
+	background-color:#4774CE; 
+	color: white;
+	font-family:'Quicksand', sans-serif;
+}
+
+hr {
+	color:#c21a43;
+}
+
+h1{
+	color:black;
+	font-family:'Arapey';
+	font-size:2.5em;
+	padding-top:20px;
+}
+
+h2{ 
+	color:black;
+	font-family:'Arapey';
+	font-size:2em;
+}
+
+p{
+	font-family:'Hanuman', sans-serif;padding:10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+}
+
+.imActive {
+	background-color: #3F68B9;
+}
+
+li a:hover {
+    background-color: #1a52c2;
+}
+
+/*CSS FOR HOME PAGE*/
+@keyframes opacityChange{
+	0%{opacity: 0;}
+	20%{opacity: 0;}
+	40%{opacity: 0;}
+	60%{opacity: 0;}
+	80%{opacity: 0;}
+	100%{opacity: 1;}
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity:1;
+	}
+}
+
+#containerHome{
+	margin-left: 9.5%;
+	width:80%;
+	max-width:1500px;
+	min-width:780px;
+	animation-name: opacityChange;
+	animation-duration: 4s;
+	animation-timing-function: ease-in;
+}
+
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.collapsible {
+	padding:10px;
+	width:100%;
+	background-color: #D0D0D0;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px grey;
+	font-size:16px;
+	color:black;
+	font-family:'Quicksand', sans-serif;
+	
+}
+
+
+#leftside{
+	float: left;
+	width: 50%;
+}
+#rightside{
+	float: right;
+	width: 50%;
+}
+
+/*CSS FOR ABOUT PAGE*/
+.logo{
+	float:left;
+	padding-right:20px;
+	color:black;
+	width:19%;
+}
+.profileStyle{
+	background-color:#D0D0D0;
+	width:26%;
+	height:400px;
+	float:left;
+	border-radius: 5px;
+	padding:20px;
+	margin:36px;
+	box-sizing:border-box;
+	font-size:15px;
+}
+
+/*CSS FOR CONTACT PAGE*/
+.contactForm {
+	width:60%;
+	padding-left:20%;
+	text-align:left;
+}
+.submit {
+	width:40%;
+	margin-bottom:20px;
+}
+form{
+	width:300px; 
+	margin:0 auto; 
+	text-align:center;
+}
+input {
+  width: 100%;
+  height:25px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+fieldset {
+	border: 2px solid #c21a43;
+	padding:10px;
+}
+
+
+/*CSS FOR NEWS PAGE*/
+
+.article {
+	width: 80%;
+	height:100px;
+	margin-left: 10%;
+	background-color: #D0D0D0;
+	text-align:left;
+	padding:2%;
+}
+
+.article img {
+	width:10%;
+	float:left;
+}
+.article h3 {
+	margin-left:11.3%;
+	padding-top:1%;
+	transition: all 0.3s;
+	width:30%;
+}
+.article p {
+	margin-left:10%;
+	font-size:14px;
+}
+
+.article h3:hover {
+	opacity:0.6;
+	text-decoration: underline;
+}
+
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:active {
+  color: inherit;
+}
+
+/*ARTICLE STYLING*/
+#article1 {
+	width: 80%;
+	height:320px;
+	margin-left: 10%;
+	background-color: #D0D0D0;
+	text-align:left;
+	padding:2%;
+}
+#article1 img {
+	width:30%;
+	float:left;
+}
+#article1 h3 {
+	margin-left:32%;
+	padding-top:1%;
+	transition: all 0.3s;
+}
+#article1 p {
+	margin-left:31%;
+	font-size:14px;
+}
+
+.article1Comments {
+	width: 80%;
+	height:100px;
+	margin-left: 10%;
+	background-color: #D0D0D0;
+	text-align:left;
+	padding:2%;
+}
+.article1Comments img {
+	width:10%;
+	float:left;
+}
+.article1Comments h3 {
+	margin-left:12%;
+	padding-top:1%;
+	transition: all 0.3s;
+}
+.article1Comments p {
+	margin-left:11%;
+	font-size:14px;
+}
