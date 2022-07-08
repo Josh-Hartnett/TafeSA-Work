@@ -1,0 +1,123 @@
+.redBackground {
+	padding-top:40px;
+	padding-bottom:50px;
+	background-color:#be1428;
+	color:white;
+}
+.redBackground h2, h3, h4, h5, h6{
+	font-weight:bold;
+}
+.redBackground a{
+	color:white;
+}
+.redBackground a:hover {
+	color: #d9d9d9;
+}
+.redHeading {
+	font-weight:bold;
+	color:#be1428;
+}
+.whiteHeading {
+	font-weight:bold;
+	color:white;
+	text-align:center;
+}
+.card {
+	text-align:center;
+	color: #747474;
+	width: 16rem;
+	margin-left: 5%;
+}
+.card a{ 
+	color:#be1428;
+}
+.card a:hover{ 
+	color:#ee5a6b;
+}
+.thirdDiv {
+	padding-top:30px;
+	padding-bottom:60px;
+}
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 6em;
+  height: 6em;
+	margin-left:28%;
+  
+}
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #747474;
+}
+.svg-icon circle {
+  stroke: #747474;
+  stroke-width: 1;
+}
+
+.svg-icon2 {
+  width: 3em;
+  height: 3em;
+  float:left;
+  padding-left:1%;
+}
+.svg-icon2 path,
+.svg-icon2 polygon,
+.svg-icon2 rect {
+  fill: black;
+}
+
+.svg-icon2 circle {
+  stroke: black;
+  stroke-width: 1;
+}
+.row {
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+.blackFont {
+	color:black;
+}
+.borderStyling {
+	background-color:white;
+	padding-top:1%;
+	padding-bottom:1%;
+	border-radius: 15px 15px 15px 15px;
+	font-weight:bold;
+}
+.borderStyling p {
+	padding-top:2%;
+	padding-left:10%;
+}
+/*Parralax Image */
+.parallax {
+  /* The image used */
+  background-image: url("../images/aboutQTL.jpg");
+
+  /* Set a specific height */
+  height:300px;
+  width:100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-fluid {
+
+}
+
+.imageRed {
+	border: 5px solid #be1428;
+	border-radius: 4px;
+	margin-left:30%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		background-color:red;
+	border-radius: 15px 15px 15px 15px;
+}

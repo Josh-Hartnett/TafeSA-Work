@@ -1,0 +1,54 @@
+.redBackground {
+	margin-top:30px;
+	padding-top:20px;
+	background-color:#be1428;
+	color:white;
+	margin-bottom:30px;
+}
+.redBackground h2, h3, h4, h5{
+	font-weight:bold;
+}
+.redBackground a{
+	color:white;
+}
+.redBackground a:hover {
+	color: #d9d9d9;
+}
+.redHeading {
+	font-weight:bold;
+	color:#be1428;
+}
+.whiteHeading {
+	font-weight:bold;
+	color:white;
+	text-align:center;
+}
+.card {
+	text-align:center;
+	color: #747474;
+}
+.thirdDiv {
+	padding-top:30px;
+	padding-bottom:60px;
+}
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 8em;
+  height: 8em;
+	margin-left:28%;
+  
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #747474;
+}
+
+.svg-icon circle {
+  stroke: #747474;
+  stroke-width: 1;
+}
