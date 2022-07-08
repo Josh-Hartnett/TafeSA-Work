@@ -1,0 +1,72 @@
+header {
+  padding: 156px 0 100px;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+.home-section {
+	padding-top:50px;
+    text-align: center;
+    background: #fff;
+	padding-bottom:50px;
+}
+
+.about-section {
+    text-align: center;
+    background-color: #db1e32;
+	padding-bottom:20px;
+	padding-top:20px;
+	color:white;
+	font-weight:bold;
+}
+
+.contact-section {
+    text-align: center;
+	padding-bottom:60px;
+	padding-top:20px;
+	font-weight:bold;
+}
+
+.pictures-section {
+	padding-top:50px;
+    text-align: center;
+    background: #fff;
+	padding-bottom:50px;
+}
+.upcoming-game-section{
+    text-align: center;
+	padding-top: 50px;
+    background: #fff;
+	padding-bottom:50px;
+}
+.card-title {
+		font-weight:bold;
+}
+
+h2 {
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+footer {
+	background-color: #db1e32;
+	color:white;
+	font-weight:bold;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
