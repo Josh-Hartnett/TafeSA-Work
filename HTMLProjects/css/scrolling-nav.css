@@ -1,0 +1,82 @@
+header {
+  padding: 156px 0 100px;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+.home-section {
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    text-align: center;
+    background: #eee;
+	padding-bottom:20px;
+}
+.aboutus-section{
+    text-align: center;
+	padding-top: 50px;
+    background: #fff;
+	padding-bottom:50px;
+	padding-left:12%;
+
+}
+.whyus-section{
+    text-align: center;
+	padding-top: 50px;
+    background: #eee;
+	padding-bottom:50px;
+}
+h2 {
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.contact-section {
+	padding-top:50px;
+    text-align: center;
+    background: #eee;
+	padding-bottom:80px;
+}
+.contact-section h2{
+    text-align: center;
+	padding-top:30px;
+	padding-bottom:35px;
+}
+footer {
+	color:white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.product-section h2{
+    text-align: center;
+	padding-top:30px;
+	padding-bottom:35px;
+}
+
+.theProduct{
+    padding-top:5px;
+    background: #eee;
+	padding-bottom:40px;
+}
+.theProduct ul{
+	padding-top:20px;
+}
+
+.theProduct .tab-content{
+	padding-top:20px;
+}
