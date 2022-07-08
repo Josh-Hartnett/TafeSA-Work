@@ -1,0 +1,81 @@
+#white-font {
+	color:white;
+}
+nav {
+	background-color:#be1428;
+}
+#intranetHeading {
+	margin-top: 25px;
+	color:white;
+	padding-left:20px;
+}
+.list-group {
+	color:white;
+	font-size:10px;
+	background-color:#be1428;
+	margin-top: 20px;
+	float:right;
+	flex-direction: row;
+}
+.list-group-item {
+	background-color:#be1428;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-width: 2px;
+	border-color:white;
+	line-height:2px;
+}
+.navbarText {
+	margin-top: 10px;
+	color:white;
+	padding-left:10px;
+	font-family: var(--bs-font-sans-serif);
+}
+.myFloat {
+	float:right;
+}
+.secondNavbar {
+	background-color:#e6e6e6;
+	font-weight:bold;
+}
+.customNav {
+	flex: 0 0 auto;
+    width: 12.5%;
+	padding-top:10px;
+	font-size: 0.8rem;
+}
+
+#bannerimage {
+  width: 100%;
+  background-image: url("../images/tafe.jpg");
+  height: 400px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+
+.whereAmI {
+	padding-top:20px;
+	color: #454545;
+	font-size:0.9rem;
+}
+
+.card {
+	margin-top:2%;
+	margin-bottom:2%;
+	margin-left: 5%;
+	width: 20rem;
+	border-width:0px;
+}
+.cardLinks {
+	color: #be1428;
+}
+.cardLinks:hover {
+	color: #be1428;
+}
+footer{
+	color:white;
+	
+}
