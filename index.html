@@ -23,7 +23,7 @@
               background-image: url("assets/img/parallax.jpg");
             
               /* Set a specific height */
-              min-height: 200px;
+              min-height: 300px;
             
               /* Create the parallax scrolling effect */
               background-attachment: fixed;
@@ -34,6 +34,22 @@
             .parallax2 {
               /* The image used */
               background-image: url("assets/img/parallax2.jpg");
+            
+              /* Set a specific height */
+              min-height: 300px;
+            
+              /* Create the parallax scrolling effect */
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            #changeDammit {
+                font-size: 1rem;
+            }
+            .parallax3 {
+              /* The image used */
+              background-image: url("assets/img/parallax3.jpg");
             
               /* Set a specific height */
               min-height: 300px;
@@ -83,8 +99,11 @@
                     <a class="nav-link" href="#interests">Programming</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#socials">Find Me</a>
+                  <a class="nav-link" href="#achievements">Accomplishments</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#socials">Find Me</a>
+                  </li>
               </ul>
             </div>
           </nav>
@@ -127,8 +146,9 @@
             </div>
 
             <!--Actual content-->
+            <div class ="container-fluid">
             <div class = "row justify-content-center">
-                <div id = "aboutMe" class = "col-7">
+                <div id = "aboutMe" class = "col-md-8 justify-content-center">
                     <div class ="text-center"><br />
                     <h3 class="mb-3"><em>Hi, I'm Joshua Hartnett</em></h3>
                     <p class = "lead">A passionate Flinders University student with previous experience through Tafe SA in building dynamic web applications with languages such as SQL, JavaScript & PHP. Some of these projects 
@@ -136,13 +156,15 @@
                         login to an account, add or remove books from the cart, or 'order' books. 
 
                         <br /><br />Since starting at Flinders University in July 2021, my interest in software programming has grown drastically. It began with a subject in Java programming 
-                        during semester 2 of 2021, and continued with C++ in semester 1 of 2022, where I achieved a high distinction and distinction for an overall grade respectively. </p>
+                        during semester 2 of 2021, and followed with C++ in semester 1 of 2022, where I achieved a high distinction and distinction for an overall grade respectively. </p>
                     </div>
                 </div>
-                <div class = "col-5">
+                <div class = "col-md-4">
                     <img class="img-fluid" src="assets/img/perhapsme.png" alt = "Decorative programmer with languages surrounding him">
                 </div>
             </div>
+        </div>
+
 
             <!--Spacing-->
             <div class="container overflow-hidden">
@@ -194,7 +216,7 @@
                 </div>
                 <div class="card-deck">
                     <div class="row gx-0">
-                        <div class="col-4 p-3">
+                        <div class="col-md-4 p-3">
                             <div class="card">
                                 <a href="HTMLProjects/FanSite/index.html" target="_blank">
                                     <img class="card-img-top" src="assets/img/showcase4.png" alt="The click game still image">
@@ -209,7 +231,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 p-3">
+                        <div class="col-md-4 p-3">
                             <div class="card">
                                 <a href = "HTMLProjects/BookStore/index.html" target="_blank">
                                     <img class="card-img-top" src="assets/img/showcase5.png" alt="The flower array still image">
@@ -224,7 +246,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 p-3">
+                        <div class="col-md-4 p-3">
                             <div class="card">
                                 <a href ="HTMLProjects/TafeRedevelopment/Teaching&Learning.html" target="_blank">
                                     <img class="card-img-top" src="assets/img/showcase6.png" alt="Card image cap">
@@ -252,7 +274,7 @@
                 </div>
                 <div class="card-deck">
                     <div class="row gx-0">
-                        <div class="col-4 p-3">
+                        <div class="col-md-4 p-3">
                             <div class="card">
                                 <a href="JavaScriptProjects/ClickGame/click_game.html" target="_blank">
                                     <img class="card-img-top" src="assets/img/showcase1.png" alt="The click game still image">
@@ -267,7 +289,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 p-3">
+                        <div class="col-md-4 p-3">
                             <div class="card">
                                 <a href = "JavaScriptProjects/Flowers/flower_arrays.html" target="_blank">
                                     <img class="card-img-top" src="assets/img/showcase2.png" alt="The flower array still image">
@@ -282,7 +304,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 p-3">
+                        <div class="col-md-4 p-3">
                             <div class="card">
                                 <a href ="JavaScriptProjects/Canvas/index.html" target="_blank">
                                     <img class="card-img-top" src="assets/img/showcase3.png" alt="Card image cap">
@@ -343,17 +365,17 @@
 
         <!--Actual content-->
         <div class = "row justify-content-center" id = "aboutMe">
-            <div class = "col-5">
+            <div class = "col-md-5">
                 <img class="img-fluid" src="assets/img/prog.png" alt = "Decorative laptop with machine cogs above">
             </div>
-            <div class = "col-7">
+            <div class = "col-md-7">
                 <div class ="text-center"><br />
                 <h3 class="mb-3"><em>So, Where Is The Programming Stuff?</em></h3>
                 <p class = "lead">After moving from Tafe SA to Flinders University, I quickly discovered the difference in approach to learning. I've found that Tafe SA focused more on developing 
-                    real applications, whereas Flinders University has been much more test/exam and assignment focused. This means I haven't built any real programming applications yet during my studies,
+                    real applications, whereas Flinders University has been much more test and exam focused. This means I haven't built any complex programming applications yet during my studies,
                     but don't worry - I am working on it!
 
-                    <br /><br />In order to develop applications that involve graphical user interfaces whilst making use of more of the built in libraries (things I was not taught), I have decided it 
+                    <br /><br />In order to develop applications that involve graphical user interfaces whilst making more use of the built in libraries (things I was not taught), I have decided it 
                     would be best that I educate myself further and am currently halfway through the Head First Java textbook. I do however have programs that perform simple tasks from my time with Flinders, 
                     some of which I have highlighted below. </p>
                 </div>
@@ -364,8 +386,9 @@
 
         <!--Example lists-->
         <div class = "row justify-content-center">
-            <div class = "col-6">
+            <div class = "col-md-6">
                 <div class ="text-center"><br />
+                    <h3 id = "changeDammit" class="text-secondary mb-0">Portfolio</h3>
                     <h3 class="mb-3"><em>Java</em></h3>
                     <div class="list-group">
                         <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
@@ -383,27 +406,139 @@
                     <div class="list-group">
                         <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                             <div class=" w-100 justify-content-between text-center">
-                                <!--Practical 03-->
-                                <h5 class="mb-1 ">Boat Class</h5>
+                                <!--Practical 05-->
+                                <h5 class="mb-1 ">Frog Class</h5>
                             </div>
-                            <p class="mb-1">A Boat class which has a default constructor, a populated constructor, a static counter to count the total objects created,
-                                as well as a print, setter & getter methods. The BoatMaker class which creates new boats.
+                            <p class="mb-1">A Frog class which has a constructor which accepts fields, and unique methods which will print out the age group depending on the age of the 
+                                frog, change the characters of a frogs name if certain characters are present, and print out the frogs details. The FrogProgram makes use of the Frog methods.
                             </p>
-                        <small>1/09/2021</small>
+                        <small>10/09/2021</small>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class=" w-100 justify-content-between text-center">
+                                <!--Practical 07-->
+                                <h5 class="mb-1 ">IntList Class</h5>
+                            </div>
+                            <p class="mb-1">A IntList class which creates one constructor which takes the size of the integer array to be created. This has three methods, with one printing the contents of
+                                the array, the next inserts a user defined integer at the end of the array list (array is not dynamic), and the final method will return the element at the given parameter. In the 
+                                ArrayTask class is the main method, which populates the array and makes use of the IntList methods.
+                            </p>
+                        <small>5/10/2021</small>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class=" w-100 justify-content-between text-center">
+                                <!--Practical 08-->
+                                <h5 class="mb-1 ">Recording Events</h5>
+                            </div>
+                            <p class="mb-1">An EventInformation class which has a constructor with two parameters, as well as two getters for the defined field variables. A Recorder class, with one constructor which accepts 
+                                parameters to initialise the three field variables. This contains three methods, the first will record an event and add that data to the array field variable, the second is an overloaded method of
+                                the first, and the last method prints all recorded events. The RecordEvents class contains the main method, which creates events and prints them.
+                            </p>
+                        <small>12/10/2021</small>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class=" w-100 justify-content-between text-center">
+                                <!--Practical 09-->
+                                <h5 class="mb-1 ">Object Inheritance</h5>
+                            </div>
+                            <p class="mb-1">A Vehicle class which has a constructor with two parameters, one setter method for the capacity field variable and a print method which prints the objects field variables. A Car class, 
+                                which extends the Vehicle class, has a constructor which has three parameters and supers a field variable from the Vehicle class, a setter method which overrides the Vehicle classes capacity setter method, 
+                                and a print method which also supers the Vehicles print method. A VehicleDB class which creates a array of type Vehicle, has two addVehicle methods which accept either a Vehicle object or Car object, and 
+                                finally a print method which prints all objects in the array.
+                            </p>
+                        <small>21/10/2021</small>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class=" w-100 justify-content-between text-center">
+                                <!--Practical 10-->
+                                <h5 class="mb-1 ">Sorting Algorithms</h5>
+                            </div>
+                            <p class="mb-1">A bubble sort, insertion sort, selection sort and binary search algorithm which I added to pre-built code. The GUI was created by my lecturer and we were asked to implement 
+                                 one searching & three sorting algorithms so that we could understand how they perform when compared to each other. 
+                            </p>
+                        <small>27/10/2021</small>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class = "col-6">
+            <div class = "col-md-6">
                 <div class ="text-center"><br />
+                <h3 id = "changeDammit" class="text-secondary mb-0">Portfolio</h3>
                 <h3 class="mb-3"><em>C++</em></h3>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                  </ul>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class=" w-100 justify-content-between text-center">
+                                <!--Practical 01-->
+                                <h5 class="mb-1 ">Calculating 'Badness'</h5>
+                            </div>
+                            <p class="mb-1">
+                                This program determines 'quite good' numbers within a designated maximum badness that are less than a limiting value. Quite good numbers are integers whose badness - the size of the 
+                                difference between the sum of its divisors and the number itself - is not greater than a specified value.
+                            </p>
+                        <small>13/03/2022</small>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class=" w-100 justify-content-between text-center">
+                                <!--Practical 02-->
+                                <h5 class="mb-1 ">Roman Numerals</h5>
+                            </div>
+                            <p class="mb-1">
+                                This program reads the arabic numbers from the user input and output the appropriate roman numerials. Due to the approach we were asked to use however this program is limited compared to
+                                a program which would store roman numerials and their corresponding in an array. 
+                            </p>
+                        <small>28/03/2022</small>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class=" w-100 justify-content-between text-center">
+                                <!--Practical 03-->
+                                <h5 class="mb-1 ">HP-35</h5>
+                            </div>
+                            <p class="mb-1">
+                                This program is a virtual representation of the first scientific handheld calculator. This accepts multiple different calculations and will perform the approrpiate operation
+                                depending on the user input. The user input must be entered in a specific way to achieve desired results, for example 5 4 + 3 2 - / outputs 9 (5 + 4, 3 - 2 and then 9 / 1 = 9).
+                            </p>
+                        <small>19/04/2022</small>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class=" w-100 justify-content-between text-center">
+                                <!--Practical 04-->
+                                <h5 class="mb-1 ">Creation of Dynamic Vectors</h5>
+                            </div>
+                            <p class="mb-1">
+                                This program stores the user input from a file, and outputs the total or unique number of words depending on what is written within the file. This data is stored into a 
+                                Vector that I was tasked to create, rather than using the pre-built vectors. This vector had a static size at first, but then later was modified to be grow dynamically. 
+                            </p>
+                        <small>19/04/2022</small>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class=" w-100 justify-content-between text-center">
+                                <!--Practical 06-->
+                                <h5 class="mb-1 ">Sorting Algorithms with Pointers</h5>
+                            </div>
+                            <p class="mb-1">
+                                This program will create a randomly generated dataset and sort it based off of the program arguments. This also details the amount of comparisons and swaps that were made 
+                                in order to successfully sort the dataset. The dataset can be generated either already sorted, sorted in reverse or randomly (the default). The sorting algorithms include 
+                                the insertion, selection (default) and quick sort. To quicksort a random dataset with a size of 50,000, you would type: -qr 50000
+                            </p>
+                        <small>19/04/2022</small>
+                        </a>
+                    </div>
                 </div>
             </div>
         
@@ -443,23 +578,80 @@
     </div>
 </div>
 
+<!--Parralax Feature-->
+<div class="parallax3"></div>
+
+<!--Achievements Section-->
+<div id = "background">
+    <div class="container"  id="achievements">
+        <!--Spacing-->
+        <div class="container overflow-hidden">
+            <div class="row gx-5">
+              <div class="col">
+               <div class="p-3"></div>
+              </div>
+              <div class="col">
+                <div class="p-3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="container overflow-hidden">
+            <div class="row gx-5">
+              <div class="col">
+               <div class="p-3"></div>
+              </div>
+              <div class="col">
+                <div class="p-3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="container overflow-hidden">
+            <div class="row gx-5">
+              <div class="col">
+               <div class="p-3"></div>
+              </div>
+              <div class="col">
+                <div class="p-3"></div>
+              </div>
+            </div>
+          </div>
+
+          <!--Content-->
+        <div class = "row justify-content-center">
+            <div class = "col-md-10">
+                <div class ="text-center">
+                    <h3 class="mb-3"><em>Previous Success</em></h3>
+                    <p class = "lead">In 2017, I began the challenge of completing a <u>Certificate III in Information, Digital Media & Technology</u>. Which saw me handle different technologies
+                        such as Microsoft programs, computer hardware, resolving computing issues, programming in C#, software licensing, WHS, HTML5 & CSS3, JavaScript and lastly computers power usage. This 
+                    was very broad, but gave me an idea of what's to come when I finished in 2018.</p>
+
+                    <p class = "lead">Next at Tafe SA in 2019 I began working towards completing a <u>Certificate IV - Web-Based Technologies</u>. </p>
+
+                    <p class = "lead">Finally in 2020, my last challenge at Tafe SA was to complete a <u>Diploma of Web-Based Technologies</u>. </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
         <!-- Footer-->
         <footer id = "socials" class="footer text-center">
             <div class="container px-4 px-lg-5">
                 <ul class="list-inline mb-5">
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/joshua-hartnett-391a03221/"><i class="icon-social-linkedin"></i></a>
+                        <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/joshua-hartnett-391a03221/" target = "_blank"><i class="icon-social-linkedin"></i></a>
                     </li>
                     <li class="list-inline-item">
                         <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="https://github.com/Josh-Hartnett"><i class="icon-social-github"></i></a>
+                        <a class="social-link rounded-circle text-white" href="https://github.com/Josh-Hartnett" target = "_blank"><i class="icon-social-github"></i></a>
                     </li>
                 </ul>
                 <p class="text-muted small mb-0">Copyright &copy; Joshua Hartnett Portfolio 2022</p>
             </div>
         </footer>
+    </div>
         <!-- Scroll to Top Button-->
         <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
         <!-- Bootstrap core JS-->
